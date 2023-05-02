@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.header {
+    /*border: 2px solid black;*/
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+    color: rgb(58, 2, 2);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div {
+    padding-top: 25px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+.header div ul {
+    list-style-type: none;
+    padding-top: 45px;
+    
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header div a {
+    color: darkred;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+}
+
+.about-me {
+    /* for navigation purposes */
+}
+
+.work {
+    /* for navigation purposes */
+}
+
+.contact-me {
+    /* for navigation purposes */
+}
+
+main {
+    display: flex;
+
+}
+
+footer {
+    display: flex;
+}
+aside {
+    flex 1;
+    background-color: rgb(241, 91, 91);
+    
+}
