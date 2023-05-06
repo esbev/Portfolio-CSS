@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    
     <title>My brain</title>
 </head>
 
 <body>
     <header>
-        <section>
-        <div class="header">
-            <h1>Eric Beverly</h1>
-            <div class="header">
+        <section class="header">
+            <nav class="header">
+                <h1>Eric Beverly</h1>
                 <ul>
                     <li><a href="#about-me">About me</a></li>
                     <li>|</li>
@@ -22,73 +21,79 @@
                     <li>|</li>
                     <li><a href="#contact-me">Contact Me</a></li>
                     <li>|</li>
-                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="https://www.canva.com/design/DAFasO-SjPY/TmxVm_WOd0sf4w4KBBhLcw/edit?utm_content=DAFasO-SjPY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Resume</a></li>
                 </ul>
-            </div>
-        </div>
-    </section>
+            </nav>
+        </section>
     </header>
 
-    <!--Will add a stock image here for flare
-    will delete hedaing 1 when image is selected
-    image width 100%-->
-    <div><!--<h1>Decorative title image</h1>-->
-        <img src="./assets/images/tech-background.jpg" alt="red and black circuit board">
-    </div>
+    <section class="top-decor"></section>
 
     <main>
-        <aside>
-            <div id="about-me">               
-                <h2>About Me</h2>
-            </div>
-        </aside>
+        <section class="containers">
+            <section id="about-me" class="container-child">               
+                <h2>About <br>Me</h2>
+            </section>
 
-        <section>
-                <p>Some stuff about me</p>
-
-                <p>Some more stuff about me</p>
+            <section id="sub-container" class="container-child">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repellat laborum 
+                        ex aliquam nam amet consequuntur illo expedita officia qui saepe dolores quidem 
+                        sint ut mollitia, distinctio quo et iste!</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex error nesciunt sit quae,
+                         ad nemo qui mollitia, quisquam, fugiat a optio fuga explicabo! Maiores minus 
+                         voluptatem necessitatibus neque alias veniam!</p>
+            </section>
             
-        </section>
+            <section id="work" class="container-child">                   
+                <h2>Work</h2>
+            </section>
 
-        
-            <aside>
-                <div id="work">                   
-                    <h2>Work</h2>
-                </div>
-            </aside>
-
-                <!-- will be putting a box here to display links to my work
-                for now i have a list of course work projects-->
-        <section>
-                <ul>
-                    <li><a href="https://esbev.github.io/prework-study-guide/">Prework</a></li>
-                    <li><a href="https://esbev.github.io/challenge-week-1/">Challenge 1</a></li>
-                    <li>Challenge-2</li>
-                </ul>
-            </div>
-        </section>
-
-        <aside>
-                <div id="contact-me">
-                    <h2>Contact Me</h2>
-                </div>
-            </aside>
+            <section id="sub-container" class="container-child">
+                    
+                <a href="https://esbev.github.io/prework-study-guide/"><img src="./assets/images/red2.jpg"></a>
                 
-        <section>   
-            <!-- Maybe a list or box items not sure yet, for now place holding with a list-->
-            <ul>
-                <li>254.855.9996</li>
-                <li>esbev@hotmail.com</li>
-                <li><a href="https://www.linkedin.com/in/esbev/">LinkIn</a></li>
-                <li><a href="https://www.github.com/">GitHub</a></li>
-            </ul>
+                <section class="column-container">
+                    <section class="column-container-child">
+                        <a href="https://esbev.github.io/challenge-week-1/"><img src="./assets/images/red3.jpg"></a>
+
+                    </section>
+                    <section class="column-container-child">
+                        <a href="#"><img src="./assets/images/red4.jpg"></a>
+                    
+
+                    </section>
+                    <section class="column-container-child">
+                        <a href="#"><img src="./assets/images/red5.jpg"></a>
+
+
+                    </section>
+                    <section class="column-container-child">
+                        <a href="#"><img src="./assets/images/red6.jpg"></a>
+                    </section>
+
+                </section>
+            </section>
+
+        <section id="contact-me" class="container-child">
+            <h2>Contact <br>Me</h2>
+        </section>
+
+            <section id="sub-container" class="container-child">   
+                <section class="footer">
+                    <ul>
+                        <li><a href="#">254.855.9996</a></li>
+                        <li><a href="#">esbev@hotmail.com</a></li>
+                        <li><a href="https://www.linkedin.com/in/esbev/">LinkedIn</a></li>
+                        <li><a href="https://www.github.com/esbev?tab=repositories">GitHub</a></li>
+                    </ul>
+                </section>
+            </section>
         </section>
     </main>
-    
 
     <footer>
-        <!--Nothing here yet-->
-            
+        <br><h4>You've reached the end of the page.</h4>
     </footer>
 
 </body>

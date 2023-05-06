@@ -1,78 +1,281 @@
+:root {
+    --nav-bg-color: rgb(51, 51, 51);
+    --nav-title-color: rgb(133, 131, 131);
+    --nav-title-font: Verdana, Geneva, Tahoma, sans-serif;
+    --nav-link-color: rgb(209, 29, 29);
+    --nav-link-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --nav-link-change: rgb(238, 255, 0);
+    --main-bg-color:  rgb(144, 144, 144);
+    --main-text-color: black;
+    --aside-bg-color: rgb(144, 144, 144);;
+    --aside-text-color: black;
+    --img-border-color: black;
+    --foot-link-color: rgb(51, 1, 1);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
-    margin 0;
+    margin: 0;
 }
 
 body {
-    background-color: lightgray;
-}
-
-.header {
-    /*border: 2px solid black;*/
-    padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
-    background-color: darkgray;
-    color: rgb(58, 2, 2);
+    background-color: var(--main-bg-color);
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    font-family: var(--nav-title-font);
+    color: var(--nav-title-color);
+    border-bottom: 1px solid var(--nav-link-color);
+    border-bottom-style: groove;
+    border-top: 1px solid var(--nav-link-color);
+    border-top-style: groove;
+    transition: color 3s;
 }
 
-.header div {
+.header h1:hover {
+    color: black;
+}
+
+.header nav {
+    display: inline-block;
+    background-color: var(--nav-bg-color);
+    padding: 10px;
+    width: 100%;
+}
+
+.header ul {
     padding-top: 25px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--nav-link-font);
     font-size: 20px;
-
-}
-
-.header div ul {
-    list-style-type: none;
+    margin: 20px;
     padding-top: 45px;
-    
 }
 
-.header div ul li {
+.header li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
+    color: var(--nav-link-color);
 }
 
-.header div a {
-    color: darkred;
+.header a {
+    color: var(--nav-link-color);
+    font-family: var(--nav-title-font);
     text-decoration: none;
+    border-bottom: 1px solid var(--main-bg-color);
+    scroll-behavior: smooth;
+    transition: border-bottom 1s;
 }
 
-img {
+.header a:hover {
+    border-bottom: 2px groove var(--nav-link-change);
+}
+
+.top-decor {
     width: 100%;
     height: 200px;
+    margin-bottom: 10px;
+    background-image: url("../images/tech-background.jpg");
+    opacity: 1;
+    transition: opacity 3s;
 }
 
-.about-me {
-    /* for navigation purposes */
-}
-
-.work {
-    /* for navigation purposes */
-}
-
-.contact-me {
-    /* for navigation purposes */
+.top-decor:hover {
+    opacity: .3;
 }
 
 main {
     display: flex;
-
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: space-between;
 }
 
-footer {
+section {
+    flex: 0 0 80%;
+    background-color: var(--aside-bg-color);
+}
+
+p {
+    font-size: 16px;
+    justify-content: left;
+    font-family: var(--nav-link-font);
+    font-size: 20px;
+}
+.containers {
+    width: 80%;
+    margin-left: 5%;
+    display: grid; 
+    grid-template-columns: .2fr .8fr; 
+    row-gap: 15px; 
+}
+
+.containers li {
     display: flex;
+    padding-top: 0;
+    margin-right: 20px;
+    float: left;
+    font-family: var(--nav-link-font);
+    font-size: 20px;
+    text-align: auto;
+    list-style-type: none;
+    justify-content: space-between; 
 }
-aside {
-    flex 1;
-    background-color: rgb(241, 91, 91);
+
+.container-child {
+    width: 100%;
+    float: left;
+    border: none;
+    margin: 0 auto;
+    border-left: 2px solid black;
+    border-style: groove;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container-child h2 {
+    font-size: 32px;
+    color: var(--nav-bg-color);
+}
+
+#about-me, #work, #contact-me {
+    text-align: right;
+    justify-content: right;
+    padding-right: 10px;
+    vertical-align: center;
+    border-style: none;
+    transition: padding-right 3s;
+}
+
+#about-me:hover, #work:hover, #contact-me:hover {
+    padding-right: 50px;
+
+}
+
+.sub-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: auto;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: none; 
+    padding-left: 20px;
+}
+
+.container-child img {
+    width: 100%;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 1px groove var(--nav-bg-color);
+}
+
+.container-child img:hover {
+    opacity: .7;
+    box-shadow: inset 0px 0px 10px black, 0 0 15px black;
+}
+
+.container-child a {
+    color: var(--nav-link-color);
+    font-family: var(--nav-link-font);
+    border-bottom: none;
+    scroll-behavior: smooth;
+}
+
+.column-container { 
+    display: grid; 
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 15px; 
+    width: 100%; 
+} 
+
+.column-container-child { 
+    margin: 0; 
+    flex-direction: column;
+}
+
+.column-container-child img { 
+    margin: 0; 
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px groove var(--nav-bg-color);
+}
+
+.column-container-child img:hover { 
+    opacity: .7;
+    box-shadow: inset 0px 0px 10px black, 0 0 15px black;
+}
+
+.footer {
+    display: inline-block;
+    width: 100%;
+}
+
+.footer ul {
+    float: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.footer li {
+    display: inline-block;
+    color: var(--foot-link-color);
+    padding-top: 10px;
+}
+
+.footer a {
+    color: var(--nav-link-color);
+    font-family: var(--nav-link-font);
+    text-decoration: none;
+    border-bottom: 1px solid var(--nav-link-color);
+    border-bottom-style: groove;
+    scroll-behavior: smooth;
+    transition: border-bottom 1s;
+}
+
+.footer a:hover {
+    border-bottom: 2px groove var(--nav-link-change);
+}
+
+h4 {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .containers{
+        display: table-column;
+    }
+
+    .header nav {
+        background-color: pink;
+    }
+
+    .container-child {
+        border-left: none;
+        border-top: 2px solid black;
+        padding-top: 10px;
+    }
+
+    #about-me, #work, #contact-me {
+        text-align: center;
+    }
+
+    .header h1 {
+        text-align: center;
+        justify-content: center;
+    }
     
 }
