@@ -1,1 +1,79 @@
-# module-2-challenge
+# Module 2 Challenge
+
+## Description
+
+Here I build a website to use as a portfolio for potential employers to view my work. 
+
+## Table of Contents
+- [Website Preview](#website-preview)
+- [Credits](#credits)
+    - [CSS Transitions](#css-transitions)
+    - [CSSBox Information](#cssbox-information)
+    - [Git Cheat Sheet](#git-cheat-sheet)
+    - [Git Flow Process](#git-flow-process)
+    - [HTML References](#html-reference-guide)
+    - [Markdown Language](#markdown-language-cheat-sheet)
+- [Special Thanks](#special-thanks)
+- [License](#license)
+
+## Website Preview
+
+[Challenge 2 Website](https://esbev.github.io/module-2-challenge/)
+
+[![name](assets/images/mod2chall.jpg)](https://esbev.github.io/module-2-challenge/)
+
+## Credits
+
+NOTE: Click on a thumbnail to view source
+
+- ### CSS Transitions
+
+    [![name](assets/images/csstrans.jpg)](https://www.w3schools.com/css/css3_transitions.asp)
+
+- ### CSSBox Information
+
+    [![name](assets/images/cssbox.jpg)](https://www.w3schools.com/css/css_boxmodel.asp)
+
+- ### Git Cheat Sheet
+
+    [![name](assets/images/gitcheat.jpg)](https://education.github.com/git-cheat-sheet-education.pdf)
+
+- ### Git Flow process
+
+    [![name](assets/images/gitflow.jpg)](https://docs.github.com/en/get-started/quickstart/github-flow)
+
+- ### HTML Reference Guide
+
+    [![name](assets/images/htmlref.jpg)](https://www.dofactory.com/html/ref)
+
+- ### Markdown Language Cheat Sheet
+
+    [![name](assets/images/mdcheat.jpg)](https://www.markdownguide.org/cheat-sheet/)
+
+## Special Thanks
+
+Thanks goes out to all the instructors and teacher assistants for their clear instruction and prompt and thorough answers to all my questions. Also, to all the students who joined in the study groups for their active participation and alternative perspectives. I was able to gain multiple insights I otherwise may not have gained towards the project without them. There is always strength in numbers.
+
+## License
+
+MIT License
+
+Copyright (c) 2023 Eric
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

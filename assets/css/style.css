@@ -72,7 +72,7 @@ body {
 }
 
 .header a:hover {
-    border-bottom: 2px groove var(--nav-link-change);
+    border-bottom: 1px groove var(--nav-link-change);
 }
 
 .top-decor {
@@ -80,12 +80,12 @@ body {
     height: 200px;
     margin-bottom: 10px;
     background-image: url("../images/tech-background.jpg");
-    opacity: 1;
-    transition: opacity 3s;
+    opacity: .8;
+    transition: width 1s;
 }
 
 .top-decor:hover {
-    opacity: .3;
+    width: 0;
 }
 
 main {
@@ -246,7 +246,7 @@ p {
 }
 
 .footer a:hover {
-    border-bottom: 2px groove var(--nav-link-change);
+    border-bottom: 1px groove var(--nav-link-change);
 }
 
 h4 {
