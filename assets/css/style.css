@@ -12,7 +12,7 @@
     --img-border-color: black;
     --foot-link-color: rgb(51, 1, 1);
     --project-width: 47%;
-    --work-text-color: white;
+    --work-text-color: rgb(194, 194, 194);
 }
 
 * {
@@ -26,15 +26,18 @@
     font-size: 48px;
     font-family: var(--nav-title-font);
     color: var(--nav-title-color);
+    text-shadow: 0px 0px 15px black;
     border-bottom: 1px solid var(--nav-link-color);
     border-bottom-style: groove;
     border-top: 1px solid var(--nav-link-color);
     border-top-style: groove;
     transition: color 4s;
+    transition: text-shadow 4s;
 }
 
 .header h1:hover {
     color: black;
+    text-shadow: 0px 0px 15px white;
 }
 
 .header nav {
@@ -64,15 +67,19 @@
     color: var(--nav-link-color);
     font-family: var(--nav-title-font);
     text-decoration: none;
+    text-shadow: none;
     border-bottom: 1px solid var(--main-bg-color);
     scroll-behavior: smooth;
     transition: border-bottom 1s;
+    transition: text-shadow 2s;
 }
 
 .header a:hover {
     border-bottom: 1px groove var(--nav-link-change);
+    text-shadow: 0 0 3px white;
 }
 
+/* top banner */
 .top-decor {
     width: 100%;
     height: 200px;
@@ -83,7 +90,7 @@
     opacity: .9;
 }
 
-/* this is a recent picture of myself
+/* recent picture of myself
    hover over it to reveal*/
 .top-decor img {
     height: 100px;
@@ -163,7 +170,7 @@ p {
     font-size: 20px;
 }
 
-/* this is the formatting for the pictures and links in the main work section */
+/* formatting for the pictures and links in the main work section */
 .column-container-main { 
     width: 98%;
     height: 400px;
@@ -185,13 +192,20 @@ p {
     color: var(--work-text-color);
     text-shadow: 0px 0px 10px black;
     font-size: 32px;
+    transition: color 4s;
+    transition: text-shadow 2s;
+}
+
+.column-container-main-header a:hover {
+    color: black;
+    text-shadow: 0px 0px 15px white;
 }
 
 .column-container-main:hover { 
-    opacity: .7;
+    opacity: .8;
 }
 
-/* this is the formatting for the pictures and links in the sub work section */
+/* formatting for the pictures and links in the sub work section */
 
 /* i got frustrated with formatting this project,
    hence the name of this class */
@@ -199,6 +213,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    flex-grow: 0;
     justify-content: center;
     margin: 0 auto;
 }
@@ -243,7 +258,7 @@ p {
     background-image: url("../images/red6.jpg");
 }
 
-/* this is formatting for all the sub headers in work section*/
+/* formatting for all the sub headers in work section*/
 .column-container-sub-header {
     position: relative;
     margin: 150px 0 0 50px;
@@ -255,25 +270,22 @@ p {
     color: var(--work-text-color);
     text-shadow: 0px 0px 15px black;
     font-size: 20px;
+    transition: color 4s;
+    transition: text-shadow 2s;
+
+}
+
+.column-container-sub-header a:hover {
+    color: black;
+    text-shadow: 0px 0px 15px white;
 }
 
 .column-container-sub1:hover,
 .column-container-sub2:hover,
 .column-container-sub3:hover,
 .column-container-sub4:hover { 
-    opacity: .7;
+    opacity: .8;
 }
-
-/* commented this out because I chose
-   a different route for formatting
-
- .column-container-sub img { 
-    margin: 0; 
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    border: 1px groove var(--nav-bg-color);
-} */
 
 .footer {
     display: inline-block;
@@ -297,14 +309,17 @@ p {
     color: var(--nav-link-color);
     font-family: var(--nav-link-font);
     text-decoration: none;
+    text-shadow: none;
     border-bottom: 1px solid var(--nav-link-color);
     border-bottom-style: groove;
     scroll-behavior: smooth;
     transition: border-bottom 1s;
+    transition: text-shadow 2s;
 }
 
 .footer a:hover {
     border-bottom: 1px groove var(--nav-link-change);
+    text-shadow: 0 0 3px black;
 }
 
 h4 {
