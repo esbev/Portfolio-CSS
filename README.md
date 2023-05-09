@@ -1,24 +1,21 @@
-# Module 2 Challenge
+# Module 2 Challenge - Personal Portfolio
 
 ## Description
 
-Here I build a website to use as a portfolio for potential employers to view my work. 
+Here I built a website to use as a portfolio to display my work to potential employers.
 
 ## Table of Contents
 - [Website Preview](#website-preview)
 - [Credits](#credits)
+    - [CSS Snippets Bootcamp Exercise](#css-snippets-bootcamp-exercise)
+    - [Adobe Stock Photos](#adobe-stock-photos)
     - [CSS Transitions](#css-transitions)
-    - [CSSBox Information](#cssbox-information)
-    - [Git Cheat Sheet](#git-cheat-sheet)
-    - [Git Flow Process](#git-flow-process)
-    - [HTML References](#html-reference-guide)
-    - [Markdown Language](#markdown-language-cheat-sheet)
 - [Special Thanks](#special-thanks)
 - [License](#license)
 
 ## Website Preview
 
-[Challenge 2 Website](https://esbev.github.io/module-2-challenge/)
+[Personal Portfolio](https://esbev.github.io/module-2-challenge/)
 
 [![name](assets/images/mod2chall.jpg)](https://esbev.github.io/module-2-challenge/)
 
@@ -26,29 +23,18 @@ Here I build a website to use as a portfolio for potential employers to view my 
 
 NOTE: Click on a thumbnail to view source
 
+- ### CSS Snippets Bootcamp Exercise
+
+    [![name](assets/images/snippetSS.jpg)](./CSS-snippets/snippet-index.html)
+
+- ### Adobe Stock Photos
+
+    [![name](assets/images/adobestock.jpg)](https://stock.adobe.com/photos/)
+
+
 - ### CSS Transitions
 
     [![name](assets/images/csstrans.jpg)](https://www.w3schools.com/css/css3_transitions.asp)
-
-- ### CSSBox Information
-
-    [![name](assets/images/cssbox.jpg)](https://www.w3schools.com/css/css_boxmodel.asp)
-
-- ### Git Cheat Sheet
-
-    [![name](assets/images/gitcheat.jpg)](https://education.github.com/git-cheat-sheet-education.pdf)
-
-- ### Git Flow process
-
-    [![name](assets/images/gitflow.jpg)](https://docs.github.com/en/get-started/quickstart/github-flow)
-
-- ### HTML Reference Guide
-
-    [![name](assets/images/htmlref.jpg)](https://www.dofactory.com/html/ref)
-
-- ### Markdown Language Cheat Sheet
-
-    [![name](assets/images/mdcheat.jpg)](https://www.markdownguide.org/cheat-sheet/)
 
 ## Special Thanks
 

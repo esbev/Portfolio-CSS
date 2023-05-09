@@ -69,7 +69,6 @@
     text-decoration: none;
     text-shadow: none;
     border-bottom: 1px solid var(--main-bg-color);
-    scroll-behavior: smooth;
     transition: border-bottom 1s;
     transition: text-shadow 2s;
 }
@@ -184,8 +183,6 @@ p {
     position: relative;
     margin: 300px 0 0 50px;
     padding: 0;
-    transition: all 0.5s ease-in-out;
-
 }
 
 .column-container-main-header a {
@@ -263,7 +260,6 @@ p {
     position: relative;
     margin: 150px 0 0 50px;
     padding: 0 0 0 0;
-    transition: all 0.5s ease-in-out;
 }
 
 .column-container-sub-header a {
