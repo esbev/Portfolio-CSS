@@ -2,7 +2,7 @@
 
 ## Description
 
-Here I built a website to use as a portfolio to display my work to potential employers.
+Here I built a website to use as a portfolio to display my work to potential employers. This project was used as a learning experience to take an idea and translate that idea into a website using html and css for formatting and design. This website gives me a current base to display my work as I continue through the bootcamp course and gave me invaluable experience using css and html.
 
 ## Table of Contents
 - [Website Preview](#website-preview)
