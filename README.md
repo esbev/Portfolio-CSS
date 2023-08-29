@@ -15,9 +15,9 @@ Here I built a website to use as a portfolio to display my work to potential emp
 
 ## Website Preview
 
-[Personal Portfolio](https://esbev.github.io/module-2-challenge/)
+[Personal Portfolio](https://esbev.github.io/Portfolio-CSS/)
 
-[![name](assets/images/mod2chall.jpg)](https://esbev.github.io/module-2-challenge/)
+[![name](assets/images/mod2chall.jpg)](https://esbev.github.io/Portfolio-CSS/)
 
 ## Credits
 
