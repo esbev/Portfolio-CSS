@@ -86,7 +86,7 @@
    hover over it to reveal*/
 .top-decor img {
     height: 100px;
-    width: 5px;
+    width: 100px;
     border-radius: 50px;
     margin-left: 20px;
     margin-top: 20px;
@@ -95,9 +95,9 @@
     transition: width  1s;
 }
 
-.top-decor img:hover {
+/* .top-decor img:hover {
     width: 100px;
-}
+} */
 
 body {
     background-color: var(--main-bg-color);
